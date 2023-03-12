@@ -1520,6 +1520,9 @@ p {
 .footer {
   padding: 13px 0 29px 0;
   position: relative;
+  background-image: url(../images/footer_img_3_11zon.webp);
+  background-position: center;
+  background-size: cover;
   &::after {
     content: "";
     @extend %overlay;
@@ -1577,6 +1580,10 @@ p {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    ul{
+      display: flex;
+      align-items: center;
+    }
     h5 {
       text-align: center;
     }
